@@ -49,6 +49,9 @@ coverage.xml
 venv/
 ENV/
 
+#IntelliJ
+.idea/
+
 node_modules/
 .eslintcache
 

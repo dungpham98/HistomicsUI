@@ -19,8 +19,17 @@ else
                 type='text', placeholder='Enter an optional group name for the element', value=element.group)
             .form-group
               label(for='h-element-label') Label
-              input#h-element-label.input-sm.form-control(
-                type='text', placeholder='Enter an optional label for the element', value=element.label.value)
+              select#h-element-label.form-control.h-style-group
+                option(value='Ung thư biểu mô tuyến') Ung thư biểu mô tuyến
+                option(value='Ung thư biểu mô tế bào vảy') Ung thư biểu mô tế bào vảy
+                option(value='Ung thư biểu mô KTBN, thiên về UTBM tuyến') Ung thư biểu mô KTBN, thiên về UTBM tuyến
+                option(value='Ung thư biểu mô KTBN thiên về UTBM vảy') Ung thư biểu mô KTBN thiên về UTBM vảy
+                option(value='Ung thư biểu mô tế bào nhỏ') Ung thư biểu mô tế bào nhỏ
+                option(value='Ung thư biểu mô tế bào lớn') Ung thư biểu mô tế bào lớn
+                option(value='Ung thư biểu mô, không thể định loại') Ung thư biểu mô, không thể định loại
+                option(value='Phế nang lành tính') Phế nang lành tính
+                option(value='Niêm mạc phế quản lành tính') Niêm mạc phế quản lành tính
+                option(value='Viêm hạt') Viêm hạt
             .form-group
               label(for='h-element-line-width') Line width
               input#h-element-line-width.input-sm.form-control(
